@@ -1,13 +1,13 @@
 body {  
     font-family: Arial, sans-serif;  body {  
-    background-color: #f4f4f4; /* Cor de fundo */  
-    color: #333; /* Cor do texto */  
+    background-color: #f4f4f4; 
+    color: #333;
 }  
 
 h1 {  
-    color: #0066cc; /* Cor do título */  
+    color: #0066cc; 
 }  
-    background-color: #1e1e2f;  
+    background-color: #2d2d44;  
     color: #ffffff;  
     margin: 0;  
     padding: 0;  
@@ -83,4 +83,21 @@ h2 {
 .job-info.show {  
     display: block;  
     opacity: 1;  
+}
+
+.meus-contatos {  
+    display: flex;  
+    justify-content: center;   
+    align-items: center;  
+    margin: 20px; 
+}  
+
+.meus-contatos ul {  
+    list-style-type: none; 
+    padding: 0;  
+}  
+
+.meus-contatos li {  
+    margin: 10px 0; 
+    text-align: center; 
 }
